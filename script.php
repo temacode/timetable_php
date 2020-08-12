@@ -38,7 +38,9 @@ function str2url($str) {
     $str = trim($str, "-");
     return $str;
 }
-
+/*
+https://github.com/shuchkin/simplexlsx
+ */
 require_once './simple-xlsx.php';
 
 //Создаем объект из файла
